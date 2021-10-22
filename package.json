@@ -1,0 +1,25 @@
+{
+  "name": "google-review-generator",
+  "version": "1.0.0",
+  "description": "Auto create google account and generate review using cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cypress run",
+    "start-ci": "set CI=1 && set DEBUG=cypress:* && cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wztech0192/google-review-generator.git"
+  },
+  "author": "Wei Zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wztech0192/google-review-generator/issues"
+  },
+  "homepage": "https://github.com/wztech0192/google-review-generator#readme",
+  "dependencies": {
+    "cypress": "^8.6.0",
+    "faker": "^5.5.3"
+  }
+}
