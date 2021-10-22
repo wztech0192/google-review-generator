@@ -1,0 +1,6 @@
+{
+    "viewportWidth": 1920,
+    "viewportHieght": 1080,
+    "reporter": "junit",
+    "testFiles": "**/*.spec.js"
+}
